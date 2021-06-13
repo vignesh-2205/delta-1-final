@@ -1,0 +1,63 @@
+body {
+  background-color: lightgray;
+}
+.main {
+    display: flex;
+    width: 100;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;  
+}
+.score-board {
+    display: flex;
+    flex-direction: row;
+}
+.actionBar {
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+.goalGrid {
+    display: grid;
+    padding: .5rem;
+    background-color: black;
+    grid-template-columns: repeat(3, 3rem);
+    grid-template-rows: repeat(3, 3rem);
+    align-content: center;
+    justify-content: center;
+}
+
+.gsquare {
+    align-content: center;
+    border: 0.15rem solid black;
+}
+
+.bsquare-outer {
+    padding: .25rem;
+    align-content: center;
+    background-color: darkgray;
+}
+
+.bsquare-inner {
+    padding: .25rem;
+    align-content: center;
+    background-color: black;
+}
+
+.playtile {
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.board {
+    padding: .5rem;
+    display: grid;
+    background-color: darkgray;
+    grid-template-columns: repeat(5, 5rem);
+    grid-template-rows: repeat(5, 5rem);
+    align-content: center;
+    justify-content: center;
+}
